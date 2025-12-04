@@ -544,7 +544,7 @@ class MainWindow(QMainWindow):
             text += f"Apoyo {idx} (en {pos:.2f}m): {reaction:.2f} N (↑)\n"
         
         text += f"\nMAX DESVIACIÓN: {min(self.results['deflection']):.3f} mm\n"
-        text += f"MAX shear: {max(abs(self.results['shear'])):.2f} kN\n"
+        text += f"MAX TENSIÓN: {max(abs(self.results['shear'])):.2f} kN\n"
         text += f"MAX MOMENTO: {max(abs(self.results['moment'])):.2f} kN⋅m\n"
         
         self.results_text.setText(text)
