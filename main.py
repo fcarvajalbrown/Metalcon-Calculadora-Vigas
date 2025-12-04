@@ -65,7 +65,7 @@ class BeamSolver:
         self.I = profile['moment_of_inertia'] / 1e12
         
         # Number of elements for FEA
-        self.n_elements = 50
+        self.n_elements = 1000
         
     def solve(self):
         """Solve beam using finite element method"""
