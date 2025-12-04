@@ -1,5 +1,5 @@
 """
-METALCON Calculadora Vigas Simples - Version 1.0
+METALCON Calculadora Vigas Simples - Version 1.0.0
 Aplicacion de escritorio para analisis estructural de vigas simples con multiples apoyos y cargas variables.
 GNU GPLv3 - Felipe Carvajal Brown
 """
